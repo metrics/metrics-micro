@@ -1,0 +1,12 @@
+{
+  "name": "minimal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro -p 8000"
+  },
+  "dependencies": {
+    "micro": "latest"
+  }
+}

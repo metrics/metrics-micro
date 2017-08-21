@@ -1,0 +1,35 @@
+{
+  "name": "metrics-core",
+  "version": "0.0.3",
+  "description": "The core module from metrics sdk",
+  "license": "MIT",
+  "repository": "metrics/metrics-core",
+  "main": "index.js",
+  "author": {
+    "name": "Tobias Lins",
+    "email": "me@tobi.sh"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "dist",
+    "index.js"
+  ],
+  "scripts": {
+    "build": "babel src -d dist",
+    "patch": "npm version patch && npm publish",
+    "minor": "npm version minor && npm publish",
+    "major": "npm version major && npm publish",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "metrics-core": "^0.0.4",
+    "socket.io-client": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-stage-2": "^6.18.0"
+  }
+}
