@@ -1,9 +1,9 @@
 {
-  "name": "metrics-core",
-  "version": "0.0.3",
-  "description": "The core module from metrics sdk",
+  "name": "metrics-micro",
+  "version": "0.0.1",
+  "description": "The micro middleware for metrics",
   "license": "MIT",
-  "repository": "metrics/metrics-core",
+  "repository": "metrics/metrics-micro",
   "main": "index.js",
   "author": {
     "name": "Tobias Lins",
@@ -12,15 +12,9 @@
   "engines": {
     "node": ">=6"
   },
-  "files": [
-    "dist",
-    "index.js"
-  ],
+  "files": ["dist", "index.js"],
   "scripts": {
     "build": "babel src -d dist",
-    "patch": "npm version patch && npm publish",
-    "minor": "npm version minor && npm publish",
-    "major": "npm version major && npm publish",
     "prepublish": "npm run build"
   },
   "dependencies": {
