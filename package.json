@@ -21,7 +21,7 @@
     "prepublish": "npm run build"
   },
   "dependencies": {
-    "metrics-core": "^0.0.4",
+    "metrics-core": "^0.0.5",
     "socket.io-client": "^2.0.3"
   },
   "devDependencies": {
