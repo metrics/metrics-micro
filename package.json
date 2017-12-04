@@ -1,6 +1,6 @@
 {
   "name": "metrics-micro",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The micro middleware for metrics",
   "license": "MIT",
   "repository": "metrics/metrics-micro",
