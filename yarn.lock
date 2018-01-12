@@ -1286,9 +1286,9 @@ loose-envify@^1.0.0:
   dependencies:
     js-tokens "^3.0.0"
 
-metrics-core@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/metrics-core/-/metrics-core-0.0.4.tgz#86a76e79509949cb533847709b111b97875f6693"
+metrics-core@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/metrics-core/-/metrics-core-0.0.5.tgz#f1e5528016c3c2a3acc5c04377ab34203dfa9649"
   dependencies:
     socket.io-client "^2.0.3"
 
